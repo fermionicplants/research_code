@@ -10,7 +10,7 @@ print(f'Tensorflow version: {tf.__version__}')
 
 
 x_data = np.linspace(-10, 10, num=10000)
-y_data = 0.1*x_data*np.cos(x_data) + 0.1*np.random.normal(size=10000)
+y_data = 0.1*x_data*np.cos(x_data) + 0.2*np.random.normal(size=10000)
 
 plt.scatter(x_data[::3], y_data[::3], s=2)
 
